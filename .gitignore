@@ -1,0 +1,38 @@
+# Environment and credentials
+.env
+.Renviron
+
+# R files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Confidential data and generated reports
+data/
+raw_data/
+private/
+outputs/
+reports/
+
+# Generated artifacts
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.html
+*.pdf
+*.png
+*.jpg
+*.rds
+*.RDS
+
+# Browser/report rendering artifacts
+*_files/
+webshot/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
